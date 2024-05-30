@@ -1,0 +1,28 @@
+{
+  "name": "practica_examen_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn --clear src/index.ts",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prisma": "^5.14.0",
+    "typescript": "^5.4.5"
+  },
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.14.0",
+    "express": "^4.19.2"
+  }
+  {
+    "ids": [1, 2, 3],
+    "sucursalOrigenId": 1,
+    "sucursalDestinoId": 2
+  }
+  
+}
